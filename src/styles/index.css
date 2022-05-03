@@ -1,0 +1,11 @@
+body{
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url('../images/pattern-background-mobile.svg');        
+    }
+}

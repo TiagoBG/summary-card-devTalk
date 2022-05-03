@@ -1,0 +1,10 @@
+
+.App {
+  text-align: center;
+}
+
+@media screen and (max-Width: 425px) {
+  .App{
+    min-width: 300px;
+  }
+}

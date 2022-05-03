@@ -1,0 +1,18 @@
+.summary-card{
+    width: 28%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+@media screen and (max-width: 1253px) {
+    .summary-card{
+        width: 40%
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .summary-card{
+        width: 80%;
+    }
+}
