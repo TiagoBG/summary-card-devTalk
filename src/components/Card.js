@@ -20,14 +20,14 @@ export default function Card() {
           <p style={{fontWeight: 'bold'}}>Annual Plan</p>          
           <p style={{marginTop: '-20%'}}>$59.99/year</p>
           </div>           
-          <a href="#" style={{margin:'auto', fontWeight:'bold'}}>Change</a>
+          <a href="#change" style={{margin:'auto', fontWeight:'bold'}} onClick={()=> alert('Changing plan...')}>Change</a>
         </div>
 
       <div className="action-buttons" style={{display: 'block'}}>
-      <a href="#" className="btn btn-primary col-11" style={{fontWeight: 'bold', marginTop: '8%'}}>
+      <a href="#payment" className="btn btn-primary col-11" style={{fontWeight: 'bold', marginTop: '8%'}} onClick={()=> alert('Redirecting to payment...')}>
           Proceed to Payment
         </a>
-        <a href="#" className="btn btn-light col-11" style={{fontWeight: 'bold', marginTop: '8%'}}>
+        <a href="#cancel" className="btn btn-light col-11" style={{fontWeight: 'bold', marginTop: '8%'}} onClick={()=> alert('Order canceled!')}>
           Cancel Order
         </a>
       </div>
